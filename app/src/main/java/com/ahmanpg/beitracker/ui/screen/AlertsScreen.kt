@@ -1,0 +1,9 @@
+package com.ahmanpg.beitracker
+
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+
+@Composable
+fun AlertsScreen() {
+    Text(text = "Alerts Screen")
+}
