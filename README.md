@@ -168,7 +168,7 @@ Helping users:
 * [x] Advanced price predictions
 * [x] Seller integrations
 * [x] Web platform (SEO traffic)
-* [^] WhatsApp tracking bot
+* [ ] WhatsApp tracking bot
 
 ---
 
