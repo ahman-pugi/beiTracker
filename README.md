@@ -1,5 +1,3 @@
-Here’s a **professional, polished, production-ready README.md** for your app **BeiTracker** 👇
-
 ---
 
 # 📈 BeiTracker — Smart Price Intelligence for Tanzania
