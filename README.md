@@ -167,8 +167,8 @@ Helping users:
 * [x] AI-powered recommendations
 * [x] Advanced price predictions
 * [x] Seller integrations
-* [ ] Web platform (SEO traffic)
-* [ ] WhatsApp tracking bot
+* [x] Web platform (SEO traffic)
+* [^] WhatsApp tracking bot
 
 ---
 
@@ -209,11 +209,3 @@ If you like this project:
 > Built with ❤️ for smarter shopping in Tanzania 🇹🇿
 
 ---
-
-If you want next, I can:
-
-👉 design a **killer GitHub banner (first impression boost)**
-👉 write **Play Store description (conversion optimized)**
-👉 or create a **landing page like Apple / Notion level**
-
-Just tell me 👍
