@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">BeiTracker</string>
+    <string name="navigation_drawer_open">Fungua droo ya kusafiri</string>
+    <string name="navigation_drawer_close">Funga droo ya kusafiri</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Kichwa cha urambazaji</string>
+    <string name="action_settings">Mipangilio</string>
+
+    <string name="top_price_drops">Bidhaa Yenye mapunguzo Makubwa</string>
+    <string name="menu_transform">Badilisha</string>
+    <string name="menu_reflow">Mtiririko</string>
+    <string name="menu_slideshow">Slaidi</string>
+    <string name="menu_settings">Mipangilio</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum ni maandishi tu ya mfano ya sekta ya uchapishaji na
+        uchapaji. Lorem Ipsum imekuwa maandishi ya kawaida ya sekta tangu
+        miaka ya 1500, wakati mchapishaji asiyejulikana alichukua aina ya galley na kuivuruga ili kutengeneza
+        kitabu cha sampuli"
+    </string>
+    <string name="fab_content_description">Inawakilisha mwonekano wa kuita kitendo</string>
+    <string name="image_view_item_transform_content_description">Inawakilisha mwonekano wa picha katika
+        bidhaa
+    </string>
+
+    <string name="home">Mwanzo</string>
+    <string name="triggers">Tahadhari</string>
+    <string name="settings">Mipangilio</string>
+    <string name="search">Tafuta</string>
+    <string name="profile">Wasifu</string>
+    <string name="product_detail">Maelezo</string>
+    <string name="hello_user">Habari, %1$s</string>
+    <string name="welcome_back">Karibu tena BeiTracker</string>
+    <string name="close">Funga</string>
+    <string name="drawer_header_shopping">GUNDUA MANUNUZI</string>
+    <string name="menu_popular_products">Bidhaa Maarufu</string>
+    <string name="menu_top_price_drops">Zilizoshuka Bei Sana</string>
+    <string name="menu_highlighted_deals">Ofa Kabambe</string>
+    <string name="drawer_header_account">AKAUNTI YAKO</string>
+    <string name="menu_help_feedback">Msaada na Maoni</string>
+    <string name="help">Msaada</string>
+    <string name="app_full_name">BeiTracker Tanzania</string>
+    <string name="version_build">Toleo %1$s • Build %2$s</string>
+    <string name="jiji">Jiji</string>
+    <string name="login">Ingia</string>
+    <string name="explore">Chunguza</string>
+
+    <!-- Home Screen -->
+    <string name="your_watchlist">Maangalizi</string>
+    <string name="smart_tracking">Ufuatiliaji Mahiri</string>
+    <string name="hero_subtitle">Bei yako, muda wako — Ofa za Jiji, kwa masharti yako.</string>
+    <string name="open_jiji">Fungua Jiji</string>
+    <string name="recent_activity">Shughuli za Karibuni</string>
+    <string name="mark_all_read">Soma zote</string>
+    <string name="no_alerts_yet">Hakuna tahadhari ya bei bado</string>
+    <string name="no_alerts_desc">Bidhaa unayofuatilia ikishuka bei, utaiona hapa.</string>
+    <string name="track_first_item">Anza kufuatilia bidhaa yako ya kwanza</string>
+    <string name="track_desc">Hifadhi bidhaa na tutafuatilia mabadiliko ya bei kwa ajili yako.</string>
+    <string name="search_products">Tafuta Bidhaa</string>
+    <string name="see_all">Tazama zote</string>
+    <string name="flash_sale_detected">OFA YA MUDA IMEPATA</string>
+    <string name="off_label">PUNGUZO %1$s%%</string>
+    <string name="remove_watchlist_title">Ondoa kwenye maangalizi?</string>
+    <string name="remove_watchlist_desc">\"%1$s\" itaondolewa. Unaweza kuiongeza tena baadaye.</string>
+    <string name="remove">Ondoa</string>
+    <string name="cancel">Ghairi</string>
+    <string name="price_drop_label">IMESHUKA %1$s%%</string>
+
+    <!-- Search Screen -->
+    <string name="ai_market_intelligence">Uchambuzi wa Soko (AI)</string>
+    <string name="search_placeholder">Uliza chochote... k.m. \'Laptop ya core i7 chini ya 1m\'</string>
+    <string name="ai_reasoning">AI inachambua...</string>
+    <string name="ai_synthesizing">Inakusanya takwimu kutoka vyanzo mbalimbali</string>
+    <string name="scanning_markets">Inatafuta masokoni...</string>
+    <string name="ai_powered_search">Utafutaji wa AI</string>
+    <string name="ai_search_desc">Tafuta sokoni kwa lugha ya kawaida. AI yetu inaelewa bei, ubora, na aina ya bidhaa.</string>
+    <string name="no_matches">Hatujapata bidhaa inayofanana. AI inapendekeza kubadilisha maneno.</string>
+    <string name="try_asking">JARIBU KUULIZA</string>
+    <string name="suggestions">MAPENDEKEZO</string>
+    <string name="history">HISTORIA</string>
+    <string name="clear">Futa</string>
+    <string name="track_price">Fuatilia Bei</string>
+    <string name="tracking">Inafuatiliwa</string>
+
+    <!-- Settings Screen -->
+    <string name="appearance_local">MANDHARI NA LUGHA</string>
+    <string name="theme">Mandhari</string>
+    <string name="language">Lugha</string>
+    <string name="region">Eneo</string>
+    <string name="push_notifications">Taarifa za Simu (Push)</string>
+    <string name="notifications_desc">Taarifa za papo hapo bei ikibadilika</string>
+    <string name="alert_threshold">Kiwango cha Tahadhari</string>
+    <string name="any_drop">Mabadiliko Yoyote</string>
+    <string name="force_refresh">Sasisha Soko Sasa</string>
+    <string name="clear_searches">Futa Historia ya Tafuta</string>
+    <string name="sign_out">Ondoka</string>
+    <string name="edit_identity">Badili Utambulisho</string>
+    <string name="display_name">Jina la Kuonyeshwa</string>
+    <string name="update">Sasisha</string>
+    <string name="sign_out_confirm">Je, una uhakika unataka kuondoka?</string>
+    <string name="system_default">Chaguo la Mfumo</string>
+    <string name="light_mode">Hali ya Mwanga</string>
+    <string name="dark_mode">Hali ya Giza</string>
+    <string name="english">Kiingereza</string>
+    <string name="kiswahili">Kiswahili</string>
+
+    <!-- Category Screen -->
+    <string name="found_deals">IMEPATA OFA %1$d</string>
+    <string name="market_scan_complete">Utafutaji sokoni umekamilika</string>
+    <string name="no_listings_found">Hatujapata matokeo ya \'%1$s\' kwa sasa. Jaribu kutumia maneno mengine.</string>
+    <string name="retry_scan">Tafuta Tena</string>
+
+    <!-- Drawer -->
+    <string name="browse_categories">VINJARI KATEGORIA</string>
+    <string name="smartphones">Simu Janja</string>
+    <string name="laptops">Kompyuta Mpangato</string>
+    <string name="televisions">Televisheni</string>
+    <string name="smartwatches">Saa Janja</string>
+    <string name="audio_sound">Sauti na Muziki</string>
+    <string name="cameras">Kamera</string>
+    <string name="vehicles">Usafiri</string>
+    <string name="habari">Habari,</string>
+
+    <!-- Help Strings -->
+    <string name="help_alert_threshold_title">Kiwango cha Tahadhari</string>
+    <string name="help_alert_threshold_desc">Weka asilimia ya chini ya punguzo la bei itakayokupa taarifa. Kiwango kidogo kinamaanisha utapata taarifa mara nyingi zaidi hata kwa mabadiliko madogo.</string>
+    <string name="help_sync_engine_title">Injini ya Usawazishaji</string>
+    <string name="help_sync_engine_desc">Inadhibiti mara ngapi BeiTracker inakagua mabadiliko ya bei. Utendaji wa Juu unakagua mara nyingi zaidi lakini unaweza kutumia betri zaidi.</string>
+    <string name="help_buy_score_title">Alama ya Kununua</string>
+    <string name="help_buy_score_desc">AI yetu inachambua takwimu za kihistoria, wastani wa soko, na uaminifu wa muuzaji ili kukupa alama ikiwa ni wakati mzuri wa kununua.</string>
+    <string name="help_price_trend_title">Mwelekeo wa Bei</string>
+    <string name="help_price_trend_desc">Inaonyesha mabadiliko ya bei kwa muda. Tumia hii kuelewa ikiwa bei ya sasa ni ya muda mfupi au ni mwelekeo wa muda mrefu.</string>
+    <string name="help_verified_merchant_title">Muuzaji Aliyethibitishwa</string>
+    <string name="help_verified_merchant_desc">Tunathibitisha wauzaji kulingana na historia yao, alama, na maoni ili kuhakikisha unafanya biashara na vyanzo vya kuaminika.</string>
+    <string name="help_market_insights_title">Uchambuzi wa Soko</string>
+    <string name="help_market_insights_desc">Taarifa za ziada kuhusu jinsi bidhaa hii inavyolingana na nyingine katika kategoria hiyo hiyo na hali ya sasa ya soko.</string>
+    <string name="help_smart_tracking_title">Ufuatiliaji Mahiri</string>
+    <string name="help_smart_tracking_desc">BeiTracker inatumia AI kufuatilia bei saa 24/7 katika masoko mbalimbali. Inapobaini punguzo kubwa, utapata taarifa papo hapo.</string>
+    <string name="help_ai_market_intelligence_title">Uchambuzi wa Soko (AI)</string>
+    <string name="help_ai_market_intelligence_desc">Injini yetu ya AI inachambua maswali yako ya lugha ya kawaida ili kupata ofa bora zaidi. Inachuja vifaa visivyo na maana na kupanga bidhaa kwa kategoria.</string>
+    <string name="help_market_pulse_title">Mapigo ya Soko</string>
+    <string name="help_market_pulse_desc">Muhtasari wa afya ya soko kwa ujumla. Tunachambua mabadiliko ya bei katika vituo vikuu kama Kariakoo ili kukuambia ikiwa soko ni zuri kwa mnunuzi au muuzaji.</string>
+    <string name="help_market_activity_title">Shughuli za Soko</string>
+    <string name="help_market_activity_desc">Inaonyesha mfululizo wa mabadiliko ya bei na tahadhari kwa bidhaa unazofuatilia. Inakusaidia kujua ni lini bei ilifikia lengo lako au ilishuka kwa kiasi kikubwa.</string>
+
+</resources>

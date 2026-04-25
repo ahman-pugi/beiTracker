@@ -1,9 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -12,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId = "com.ahmanpg.beitracker"
-        minSdk = 24
+        minSdk = 29
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -38,8 +40,8 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    // Modern way to configure Kotlin compiler options in AGP 8.x+
     kotlinOptions {
+        jvmTarget = "17"
         freeCompilerArgs = freeCompilerArgs + listOf(
             "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api"
         )
@@ -61,9 +63,11 @@ android {
 kotlin {
     jvmToolchain(17)
 }
+
 hilt {
     enableAggregatingTask = true
 }
+
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -73,10 +77,14 @@ dependencies {
     implementation(libs.material3)
     implementation(libs.androidx.compose.foundation.layout)
     implementation(libs.androidx.compose.ui.text)
-    implementation(libs.play.services.analytics.impl)
+    implementation(libs.play.services.analytics)
+    implementation(libs.play.services.auth)
+    implementation(libs.androidx.core.splashscreen)
 
-    val composeBom = platform(libs.androidx.compose.bom)
-    implementation(composeBom)
+    // BOMs for version management
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(platform(libs.firebase.bom))
+    
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
@@ -85,13 +93,20 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.compose.material.icons.extended)
+    implementation(libs.androidx.hilt.navigation.compose)
+
+    // Firebase services using the BOM
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.vertexai)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.messaging)
+    implementation(libs.androidx.compose.remote.creation.compose)
 
     debugImplementation(libs.androidx.ui.tooling)
 
-    // Jsoup for scraping
+    implementation(libs.coil.compose)
     implementation(libs.jsoup)
-
-    // Coroutines + Retrofit
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
@@ -99,9 +114,15 @@ dependencies {
     implementation(libs.hilt.android)
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    ksp(libs.hilt.compiler)
+    kapt(libs.hilt.compiler)
     ksp(libs.androidx.room.compiler)
 
-    // javax.inject
+    implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.javax.inject)
+    
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.androidx.test.runner)
+    androidTestImplementation(libs.androidx.test.core)
 }

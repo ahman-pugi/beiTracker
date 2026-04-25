@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.ahmanpg.beitracker" />
+                  <option name="mobileSdkAppId" value="1:1065961585051:android:b60e3fa2754e49ee3bc93e" />
+                  <option name="projectId" value="beitracker" />
+                  <option name="projectNumber" value="1065961585051" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

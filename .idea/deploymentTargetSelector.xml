@@ -4,11 +4,12 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2026-03-27T10:14:52.467248305Z">
-          <Target type="DEFAULT_BOOT">
+        <DropdownSelection timestamp="2026-04-23T16:49:27.668461462Z">
+          <Target type="BOOT_WITH_SNAPSHOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=/home/ahman/.android/avd/Medium_Phone.avd" />
             </handle>
+            <Snapshot name="snap_2026-04-15_22-55-22" path="$USER_HOME$/.android/avd/Medium_Phone.avd/snapshots/snap_2026-04-15_22-55-22" />
           </Target>
         </DropdownSelection>
         <DialogSelection />

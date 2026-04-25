@@ -6,6 +6,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="top_price_drops">Top Price Drops</string>
 
     <string name="menu_transform">Transform</string>
     <string name="menu_reflow">Reflow</string>
@@ -23,6 +24,178 @@
         item
     </string>
     <string name="home">Home</string>
-    <string name="alerts">Alerts</string>
+    <string name="triggers">Triggers</string>
     <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="product_detail">Detail</string>
+    <string name="hello_user">Hello, %1$s</string>
+    <string name="welcome_back">Welcome back to BeiTracker</string>
+    <string name="close">Close</string>
+    <string name="drawer_header_shopping">SHOPPING DISCOVER</string>
+    <string name="menu_popular_products">Popular Products</string>
+    <string name="menu_top_price_drops">Top Price Drops</string>
+    <string name="menu_highlighted_deals">Highlighted Deals</string>
+    <string name="drawer_header_account">ACCOUNT</string>
+    <string name="menu_help_feedback">Help &amp; Feedback</string>
+    <string name="help">Help</string>
+    <string name="app_full_name">BeiTracker Tanzania</string>
+    <string name="version_build">Version %1$s • Build %2$s</string>
+    <string name="jiji">Jiji</string>
+    <string name="login">Login</string>
+    <string name="explore">Explore</string>
+
+    <!-- Home Screen -->
+    <string name="your_watchlist">Watchlist</string>
+    <string name="smart_tracking">Smart Tracking</string>
+    <string name="hero_subtitle">Your price, your time — Jiji deals, on your terms.</string>
+    <string name="open_jiji">Open Jiji</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="mark_all_read">Mark all read</string>
+    <string name="no_alerts_yet">No price alerts yet</string>
+    <string name="no_alerts_desc">When a tracked item drops in price, you\'ll see it here.</string>
+    <string name="track_first_item">Track your first item</string>
+    <string name="track_desc">Save items to your watchlist and we\'ll track price changes across the market for you.</string>
+    <string name="search_products">Search Products</string>
+    <string name="see_all">See all</string>
+    <string name="flash_sale_detected">FLASH SALE DETECTED</string>
+    <string name="off_label">%1$s%% OFF</string>
+    <string name="remove_watchlist_title">Remove from watchlist?</string>
+    <string name="remove_watchlist_desc">\"%1$s\" will be removed. You can always re-add it later.</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="price_drop_label">%1$s%% DROP</string>
+
+    <!-- Search Screen -->
+    <string name="ai_market_intelligence">AI Market Intelligence</string>
+    <string name="search_placeholder">Ask anything... e.g. \'Best gaming laptop under 2m\'</string>
+    <string name="ai_reasoning">AI is reasoning...</string>
+    <string name="ai_synthesizing">Synthesizing market data from multiple sources</string>
+    <string name="scanning_markets">Scanning markets...</string>
+    <string name="ai_powered_search">AI-Powered Search</string>
+    <string name="ai_search_desc">Query the market using natural language. Our AI understands price constraints, quality intent, and categories.</string>
+    <string name="no_matches">We couldn\'t find any matches. Our AI suggests broadening your query.</string>
+    <string name="try_asking">TRY ASKING</string>
+    <string name="suggestions">SUGGESTIONS</string>
+    <string name="history">HISTORY</string>
+    <string name="clear">Clear</string>
+    <string name="track_price">Track Price</string>
+    <string name="tracking">Tracking</string>
+    <string name="signals_found">%1$d intelligence signals found</string>
+    <string name="sort">Sort</string>
+    <string name="other">Other</string>
+    <string name="end_of_signal">End of Signal</string>
+    <string name="drop_badge">DROP</string>
+    <string name="items_count">items</string>
+    <string name="item_count">item</string>
+    <string name="gaming">Gaming</string>
+    <string name="audio">Audio</string>
+    <string name="home_cat">Home</string>
+
+    <!-- Settings Screen -->
+    <string name="appearance_local">APPEARANCE &amp; LOCAL</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
+    <string name="region">Region</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="notifications_desc">Real-time price volatility pings</string>
+    <string name="alert_threshold">Alert Threshold</string>
+    <string name="any_drop">Any Drop</string>
+    <string name="force_refresh">Force Market Refresh</string>
+    <string name="clear_searches">Clear Recent Searches</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="edit_identity">Edit Identity</string>
+    <string name="display_name">Display Name</string>
+    <string name="update">Update</string>
+    <string name="sign_out_confirm">Are you sure you want to sign out?</string>
+    <string name="system_default">System Default</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="english">English</string>
+    <string name="kiswahili">Kiswahili</string>
+    <string name="app_theme">App Theme</string>
+    <string name="smart_alerts">SMART ALERTS</string>
+    <string name="sync_engine">SYNC ENGINE</string>
+    <string name="update_every">Update every %1$d hours</string>
+    <string name="high_performance">High Performance</string>
+    <string name="balanced">Balanced</string>
+    <string name="energy_saver">Energy Saver</string>
+    <string name="data_management">DATA</string>
+    <string name="account_actions">ACCOUNT</string>
+    <string name="tracked_stat">TRACKED</string>
+    <string name="notifications_stat">NOTIFICATIONS</string>
+    <string name="alert_threshold_value">> %1$d%%</string>
+
+    <!-- Category Screen -->
+    <string name="found_deals">FOUND %1$d DEALS</string>
+    <string name="market_scan_complete">Market scan complete</string>
+    <string name="no_listings_found">We couldn\'t find any listings for \'%1$s\' in the current market cycle. Try adjusting your keywords.</string>
+    <string name="retry_scan">Retry Scan</string>
+
+    <!-- Drawer -->
+    <string name="browse_categories">BROWSE CATEGORIES</string>
+    <string name="smartphones">Smartphones</string>
+    <string name="laptops">Laptops</string>
+    <string name="televisions">Televisions</string>
+    <string name="smartwatches">Smartwatches</string>
+    <string name="audio_sound">Audio &amp; Sound</string>
+    <string name="cameras">Cameras</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="habari">Habari,</string>
+
+    <!-- Product Detail -->
+    <string name="market_stats">MARKET STATS</string>
+    <string name="stability">Stability</string>
+    <string name="min_price">Min Price</string>
+    <string name="max_price">Max Price</string>
+    <string name="avg_price">Avg Price</string>
+    <string name="ai_price_prediction">AI PRICE PREDICTION</string>
+    <string name="confidence_score">%1$d%% CONFIDENCE</string>
+    <string name="similar_items">SIMILAR ITEMS</string>
+    <string name="historical_price">HISTORICAL PRICE</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="wait">WAIT</string>
+    <string name="sell">SELL</string>
+    <string name="view_on_source">View on %1$s</string>
+
+    <!-- Help Strings -->
+    <string name="help_alert_threshold_title">Alert Threshold</string>
+    <string name="help_alert_threshold_desc">Set the minimum percentage price drop that will trigger a notification. A lower threshold means more frequent alerts for even small price changes.</string>
+    <string name="help_sync_engine_title">Sync Engine</string>
+    <string name="help_sync_engine_desc">Controls how often BeiTracker checks for price updates. High Performance checks more frequently but may use more battery, while Energy Saver checks less often.</string>
+    <string name="help_buy_score_title">Buy Score</string>
+    <string name="help_buy_score_desc">Our AI analyzes historical data, market averages, and seller reliability to give you a score on whether now is a good time to buy.</string>
+    <string name="help_price_trend_title">Price Trend</string>
+    <string name="help_price_trend_desc">Shows the price movement over time. Use this to understand if the current price is a temporary dip or a long-term trend.</string>
+    <string name="help_verified_merchant_title">Verified Merchant</string>
+    <string name="help_verified_merchant_desc">We verify sellers based on their history, ratings, and feedback to ensure you\'re dealing with reliable sources.</string>
+    <string name="help_market_insights_title">Market Insights</string>
+    <string name="help_market_insights_desc">Contextual information about how this product compares to others in the same category and current market conditions.</string>
+
+    <string name="help_smart_tracking_title">Smart Tracking</string>
+    <string name="help_smart_tracking_desc">BeiTracker uses AI to monitor prices 24/7 across multiple markets. When it detects a significant drop or a flash sale, you\'ll receive an instant notification.</string>
+
+    <string name="help_ai_market_intelligence_title">AI Market Intelligence</string>
+    <string name="help_ai_market_intelligence_desc">Our AI engine analyzes your natural language queries to find the best deals. It filters out irrelevant accessories, groups products by category, and identifies price trends to help you make informed decisions.</string>
+
+    <string name="help_market_pulse_title">Market Pulse</string>
+    <string name="help_market_pulse_desc">A summary of the overall market health. We analyze price volatility across major hubs like Kariakoo to tell you if it\'s a buyer\'s or seller\'s market.</string>
+
+    <string name="help_market_activity_title">Market Activity</string>
+    <string name="help_market_activity_desc">Shows a timeline of price changes and alerts for items you are tracking. It helps you keep track of when prices hit your target or dropped significantly.</string>
+
+    <!-- Help & Support -->
+    <string name="help_support">Help &amp; Support</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="chat_directly">Chat with our team directly</string>
+    <string name="faqs">FAQs</string>
+    <string name="freq_questions">Frequently asked questions</string>
+    <string name="tutorials">Tutorials</string>
+    <string name="learn_tutorials">Learn how to use BeiTracker</string>
+    <string name="report_issue">Report an Issue</string>
+    <string name="tell_wrong">Tell us what went wrong</string>
+
+    <!-- Replace with your actual Web Client ID from Firebase Console -->
+    <string name="default_web_client_id">1065961585051-qfmpdv479bi6kmc3k2vcv7k66bujr57e.apps.googleusercontent.com</string>
+
 </resources>
